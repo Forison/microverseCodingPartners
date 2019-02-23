@@ -1,5 +1,22 @@
-#mynavbar{
-  background-color: rgb(230, 255, 240);
+.navbar-light .navbar-brand {
+  color: yellow;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: yellow;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+#projects .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #subTitle{
@@ -54,7 +71,7 @@ margin-top: 100px;
   padding-bottom: 120px;
 }
 
-
+/*
 #profile-link{
  margin-top: 50px;
   width: 100%;
@@ -64,7 +81,7 @@ margin-top: 100px;
   border:1px solid #33FFBB;
   background-color: white;
   border-radius: 100%;
-}
+}*/
 #randText{
 color:white;
 }
